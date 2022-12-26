@@ -5,3 +5,6 @@ from django.http import JsonResponse
 
 def index(request):
     return JsonResponse({"msg":"success"})
+
+def soms_code():
+    print("hi")
